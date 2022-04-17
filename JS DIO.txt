@@ -1,0 +1,49 @@
+- Aula 1: Introdução ao JavaScript
+° JavaScript
+> Linguagem de script e multiplataforma
+> Client Side - É executado do lado do cliente (usuário)
+> Tem capacidade de interagir com elementos de uma página HTML
+> Muito usado no desenvolvimento de páginas e também aplicativos mobile híbridos
+
+
+° DOM (Document Object Model)
+> JavaScript pode alterar todos elementos do HTML
+> JavaScript pode alterar todos os atributos e estilos de CSS de uma página
+
+->Pratica
+
+// Para fazer js interagir com html existe duas formas:
+// Usando o js dentro do html com a tag script, tudo dentro dela é js
+// A outra forma de interação é criando uma pasta chamada js, dentro dela crie arquivo chado main.js
+
+// comando alert faz com que aparece uma tela de alerta com o que foi escrito
+
+// No js não preicsa dizer se ou não número, pois ele entende que se for entre aspas é str
+ex: 
+var nome = "Rafael Galleani";
+alert("Bem vindo " + nome);
+
+var nome = "Rafael Galleani";
+var idade = 29;
+alert(nome + " tem " + idade + " anos"); // por estar sendo somado a uma str faz uma comcatenação
+
+alert(idade+idade2); // soma as idades
+
+var idade = "29";
+var idade2 = "10";
+alert(idade+idade2); // res. = 2910, o resultado é a junção das str
+
+// = comentar uma linha
+
+/* */ = comentar mais de uma linha
+
+console.log(nome)
+
+// Inspecione, clique em console, vai aparecer o nome no console
+
+console.log(frase.replace("Japão", "Brasil")); // troca uma palavra por outro, é possivel fazer isso no alert também
+
+toUpperCase = tranforma tudo em maisculo
+toLowerCase = tranforma tudo em minusculo
+
+// Atravez do console e sources é possivel saber se ouve erro e onde
